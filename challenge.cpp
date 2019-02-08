@@ -12,7 +12,6 @@ static size_t WriteDataToVariable(void *contents, size_t size, size_t nmemb, voi
 int main(void)
 {
   CURL *curl;
-  //CURLcode res;
   std::string writeData;
   std::string result;
   curl = curl_easy_init();
